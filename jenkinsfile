@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/yourusername/simple-cicd-pipeline.git'
+                git 'https://github.com/rinwi-smith/simple-cicd-pipeline.git'
             }
         }
         stage('Build') {
